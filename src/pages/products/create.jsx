@@ -1,5 +1,5 @@
 import { useMutation, useQuery } from "@tanstack/react-query";
-import { Button, Modal, Select, Upload } from "antd";
+import { Button, Select, Upload } from "antd";
 import Input from "antd/es/input/Input";
 import React, { useState } from "react";
 import { Controller, useForm } from "react-hook-form";

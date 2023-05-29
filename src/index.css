@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  color: inherit;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+button{
+  cursor: pointer;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+

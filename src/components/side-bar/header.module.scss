@@ -1,0 +1,40 @@
+.header{
+  background: #012763;
+  color: #ffffff;
+  height: 100vh;
+  width: 300px;
+}
+.top_section{
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+  justify-content: space-between;
+}
+.logo{
+  font-size: 30px;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.link{
+  display: flex;
+  color: #ffffff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  &:hover{
+    background: lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+  }
+  &_text{
+    font-size: 20px;
+  }
+}
+.icon{
+font-size: 20px;
+}

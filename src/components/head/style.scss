@@ -1,0 +1,60 @@
+
+
+.head{
+    margin: 30px 0;
+    display: flex;
+    gap: 30px;
+    
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.three-flex{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+}
+
+
+
+// .form-login4{
+//     // background-color: lightgray;
+//     // height: calc(100vh - 70px);
+    
+//     // flex-direction: column;
+//     // justify-content: center;
+//     // align-items: center;
+//     form{
+//      // background-color: yellowgreen;
+//      display: flex;
+//     //  flex-direction: column;
+//      gap: 22px;
+//      label{
+//          font-size: 18px;
+//      }
+//      input{
+//          font-size: 24px;
+//          width: 100%;
+//          padding: 9px 14px;
+//          border-radius: 5px;
+//          border: none;
+//         //  outline: none ;
+//          box-shadow: 1px 1px 2px 3px white;
+//      }
+//      button{
+//          padding: 19px 38px;
+//          width: 100%;
+//          border-radius: 5px;
+//          border: none;
+//          outline: none ;
+//          text-transform: uppercase;
+//          cursor: pointer;
+//          background-color: greenyellow;
+//      }
+//     }
+//   }
+ 

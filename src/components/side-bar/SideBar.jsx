@@ -48,11 +48,6 @@ const Sidebar = () => {
       name: "Message",
       // icon: <MessageOutlined />,
     },
-    {
-      path: "/info",
-      name: "Information",
-      // icon: <InfoCircleOutlined />,
-    },
   ];
 
   const [isOpen, setIsOpen] = useState(true);

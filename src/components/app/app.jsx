@@ -7,7 +7,6 @@ import { Login } from "../../pages/login/login";
 import { Register } from "../../pages/register/register";
 import Users from "../../pages/users/users";
 import Message from "../../pages/Message/message";
-import Info from "../../pages/info/info";
 import { useAuthToken } from "../../context/context";
 import Category from "../../pages/category/category";
 import CreateProduct from "../../pages/products/create";
@@ -35,7 +34,6 @@ const App = () => {
             <Route path="/category" element={<Category />} />
             <Route path="/users" element={<Users />} />
             <Route path="/message" element={<Message />} />
-            <Route path="/info" element={<Info />} />
           </Routes>
         </Layout>
       </>

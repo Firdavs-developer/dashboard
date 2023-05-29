@@ -20,38 +20,38 @@ const Sidebar = () => {
     {
       path: "/register",
       name: "Register",
-      icon:1
+      
       // icon: <LoginOutlined />,
     },
 
     {
       path: "/login",
       name: "Login",
-      icon:2
+      
       // icon: <FaUserCircle />,
     },
     {
       path: "/users",
       name: "Users",
-      icon:3,
+      
       // icon: <UsergroupAddOutlined />,
     },
     {
       path: "/products",
       name: "Products",
-      icon: 4,
+      
       // icon: <FaOpencart />,
     },
     {
       path: "/category",
       name: "Category",
-      icon:5,
+      
       // icon: <FileProtectOutlined />,
     },
     {
       path: "/message",
       name: "Message",
-      icon:6,
+      
       // icon: <MessageOutlined />,
     },
   ];
@@ -82,7 +82,7 @@ const Sidebar = () => {
           className={body.bars}
           style={{ marginLeft: isOpen ? "50px" : "-7px" }}
         >
-          <FaBars onClick={toggle} />
+          {/* <FaBars onClick={toggle} /> */}
         </div>
       </div>
       {menuItem.map((item, index) => {

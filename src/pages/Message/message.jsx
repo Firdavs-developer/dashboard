@@ -59,7 +59,7 @@ const Message = () => {
             fontSize: "22px",
           }}
         >
-          <EditOutlined style={{ color: "blue", cursor: "pointer" }} />
+          <EditOutlined style={{ color: "green", cursor: "pointer" }} />
             <DeleteOutlined style={{ color: "red ",cursor: "pointer" }} />
         </div>
       ),

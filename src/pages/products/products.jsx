@@ -132,7 +132,7 @@ const Products = () => {
           >
             <Link to={`/create/${data.id}`}>
               <EditOutlined
-                style={{ color: "blue", cursor: "pointer" }}
+                style={{ color: "green", cursor: "pointer" }}
                 // onClick={() => console.log(data)}
               />
             </Link>

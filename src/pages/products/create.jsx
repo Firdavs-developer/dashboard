@@ -567,7 +567,7 @@ async function editProduct() {
           <Button
             type="primary"
             htmlType="submit"
-            style={{ backgroundColor: "green" }}
+            style={{ backgroundColor: "rgb(47, 255, 203)", color: "black" }}
           >
             Add product
           </Button>

@@ -87,27 +87,9 @@ const Category = () => {
       <Table
         dataSource={category?.data?.data}
         columns={columns2}
-        // loading={loading}
-        //   rowSelection={rowSelection}
-        // pagination={pagination}
-        size="small"
-        // scroll={{
-        // x: 400,
-        // y: 400,
-        // }}
+        size="small"        
         bordered
-        // expandable={{
-        //   expandedRowRender: (record) => (
-        //     <p
-        //       style={{
-        //         margin: 0,
-        //       }}
-        //     >
-        //       {record.description_Uz}
-        //     </p>
-        //   ),
-        //   rowExpandable: (record) => record.description !== "",
-        // }}
+        
       />
     </>
   );

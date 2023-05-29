@@ -20,44 +20,38 @@ const Sidebar = () => {
     {
       path: "/register",
       name: "Register",
-      icon: <LoginOutlined />,
+      // icon: <LoginOutlined />,
     },
 
     {
       path: "/login",
       name: "Login",
-      icon: <FaUserCircle />,
-    },
-
-    {
-      path: "/dashboard",
-      name: "Dashboard",
-      icon: <FaTh />,
+      // icon: <FaUserCircle />,
     },
     {
       path: "/users",
       name: "Users",
-      icon: <UsergroupAddOutlined />,
+      // icon: <UsergroupAddOutlined />,
     },
     {
       path: "/products",
       name: "Products",
-      icon: <FaOpencart />,
+      // icon: <FaOpencart />,
     },
     {
       path: "/category",
       name: "Category",
-      icon: <FileProtectOutlined />,
+      // icon: <FileProtectOutlined />,
     },
     {
       path: "/message",
       name: "Message",
-      icon: <MessageOutlined />,
+      // icon: <MessageOutlined />,
     },
     {
       path: "/info",
       name: "Information",
-      icon: <InfoCircleOutlined />,
+      // icon: <InfoCircleOutlined />,
     },
   ];
 
